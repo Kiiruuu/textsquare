@@ -7,7 +7,7 @@ int main() {
     std::cin >> input;
     std::cout << "\n\n";
 
-    std::cout << input << std::endl;
+    std::cout << input << "\n";
     if(strlen(input) <= 46)  {
         for(int i=1; i < strlen(input); i++) {
             if(i == strlen(input) - 1) { 
@@ -17,7 +17,7 @@ int main() {
                 }
             }
             else {
-                std::cout << input[i] << std::string(strlen(input) - 2, ' ') << input[strlen(input) - (i+1)] << std::endl;
+                std::cout << input[i] << std::string(strlen(input) - 2, ' ') << input[strlen(input) - (i+1)] << "\n";
             }    
         }
     }
