@@ -9,7 +9,7 @@ int main() {
 
     std::cout << input << "\n";
     if(strlen(input) <= 46)  {
-        for(int i=1; i < input[i] != '\0'; i++) {
+        for(int i=1; i < strlen(input); i++) {
             if(i == strlen(input) - 1) { 
                 std::cout << input[i];
                 for(int j=2; j < strlen(input)+1; j++) {
