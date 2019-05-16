@@ -2,7 +2,7 @@
 #include <cstring>
 
 int main() { 
-    char input[47];
+    char input[46];
     std::cout << "Type anything of up to 46 characters: ";
     std::cin >> input;
     std::cout << "\n\n";
